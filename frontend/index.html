@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Frontend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>API Frontend</h1>
+
+    <section>
+        <h2>User</h2>
+        <form id="userForm">
+            <h3>Sign Up</h3>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="profile_image_url">Profile Image URL:</label>
+            <input type="text" id="profile_image_url" name="profile_image_url">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+            <label for="phone_number">Phone Number:</label>
+            <input type="text" id="phone_number" name="phone_number">
+            <button type="submit">Sign Up</button>
+        </form>
+        <form id="loginForm">
+            <h3>Login</h3>
+            <label for="loginEmail">Email:</label>
+            <input type="email" id="loginEmail" name="email" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Photo</h2>
+        <form id="photoForm">
+            <label for="photoTitle">Title:</label>
+            <input type="text" id="photoTitle" name="title" required>
+            <label for="photoCaption">Caption:</label>
+            <input type="text" id="photoCaption" name="caption">
+            <label for="photoImageUrl">Image URL:</label>
+            <input type="text" id="photoImageUrl" name="poster_image_url">
+            <button type="submit">Add Photo</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Social Media</h2>
+        <form id="socialMediaForm">
+            <label for="socialMediaName">Name:</label>
+            <input type="text" id="socialMediaName" name="name" required>
+            <label for="socialMediaUrl">URL:</label>
+            <input type="text" id="socialMediaUrl" name="social_media_url">
+            <button type="submit">Add Social Media</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Comment</h2>
+        <form id="commentForm">
+            <label for="commentText">Comment:</label>
+            <input type="text" id="commentText" name="comment" required>
+            <label for="commentPhotoId">Photo ID:</label>
+            <input type="number" id="commentPhotoId" name="PhotoId" required>
+            <button type="submit">Add Comment</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

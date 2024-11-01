@@ -1,0 +1,36 @@
+{
+  "name": "fp_hacktiv8_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indrabayusegara/FP_hacktiv8_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indrabayusegara/FP_hacktiv8_2/issues"
+  },
+  "homepage": "https://github.com/indrabayusegara/FP_hacktiv8_2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.1"
+  }
+}

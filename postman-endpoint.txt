@@ -1,0 +1,95 @@
+POST /users/register
+{
+    "email": "",
+    "full_name": "",
+    "username": "",
+    "password": "",
+    "profile_image_url":"",
+    "age": ,
+    "phone_number":
+}
+
+POST /users/login
+{
+    "email":"",
+    "password":""
+}
+
+PUT /users/:userId
+params :userId
+{
+    "email": "",
+    "full_name": "",
+    "username": "",
+    "password": "",
+    "profile_image_url":"",
+    "age": ,
+    "phone_number":
+}
+
+DELETE /users/:userId
+params :userId
+
+
+
+
+POST  /photos
+{
+    "title":"",
+    "caption":"",
+    "poster_image_url":""
+}
+
+GET  /photos
+
+PUT /photos/:photoId
+params :photoId
+{
+    "title":"",
+    "caption":"",
+    "poster_image_url":""
+}
+
+DELETE /photos/:photoId
+params :photoId
+
+
+
+
+POST /comments
+{
+    "comment":"",
+    "PhotoId":
+}
+
+GET /comments
+
+PUT /comments/:commendtId
+params : commentId
+{
+    "comment":""
+}
+
+DELETE /comments/:commendtId
+params :commentId
+
+
+
+
+POST /socialmedias
+{
+    "name":"",
+    "social_media_url":""
+}
+
+GET /socialmedias
+
+PUT /socialmedias/socialMediaId
+params :socialMediaId
+{
+    "name":"",
+    "social_media_url":""
+}
+
+DELETE /socialmedias/socialMediaId
+params :socialMediaId
